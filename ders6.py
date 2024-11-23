@@ -24,4 +24,9 @@ async def yardım(ctx):
 async def çevre_kirliliği(ctx):
     await ctx.send(f'çevreye karşı daha dikkatli olmalısın yada çevreye zarar vermicek ürünler kullanmalısın')
 
+@bot.command()
+async def başka_çözümleri_var_mı(ctx):
+    await ctx.send(f'çevre kirliliği konusuyla ilgilenen bir derneğe bağış yapabilir yada çevrendeki kişilere çevrelerine dikkatli olmasını söyleyebilirsin')
+
 bot.run('')
+ 
